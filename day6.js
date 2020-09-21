@@ -26,10 +26,8 @@ for ( i=0;i<testArr.length;i++) {
 // The expected output will be:
 // [0,3,10,3,8,20]
 
-var newArr = [];
-
 for (i=0;i<testArr.length; i++) {
-    newArr.push(testArr[i]*i)
+    testArr[i]=testArr[i]*i
 }
-console.log(newArr)
+console.log(testArr)
 
