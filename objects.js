@@ -7,6 +7,9 @@ var users = [
 // How would you print/log John's age?
 console.log(users[1].age);
 
+console.log(users[users["age" == 30]]);
+console.log(users[users.age == 30]);
+
 // How would you print/log the name of the first object?
 console.log(users[0].name);
 
